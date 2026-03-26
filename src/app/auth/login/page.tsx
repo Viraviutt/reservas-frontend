@@ -3,8 +3,8 @@
 import { useState } from "react"
 import { handleLogin, FormState } from "./actions"
 import { useRouter } from "next/navigation"
-import { Button } from "@/app/components/Button"
-import { Input } from "@/app/components/Input"
+import { Button } from "@/app/components/atoms/Button"
+import { Input } from "@/app/components/atoms/Input"
 
 export default function LoginPage() {
   const [state, setState] = useState<FormState | null>(null)
